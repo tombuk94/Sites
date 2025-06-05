@@ -1,0 +1,2288 @@
+html {
+  scroll-behavior: smooth;
+  width:100%;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  background:white;
+  width:100%;
+}
+.row{
+  max-width: 100%;
+}
+.back-to-top {
+  position: fixed;
+  background: green;
+  color: #fff;
+  padding: 6px 12px;
+  font-size: 3em;
+  border-radius: 10px;
+  right: 15px;
+  z-index: 10;
+  bottom: 15px;
+  transition: background 0.5s;
+}
+a:hover{
+  text-decoration:none;
+}
+/* -------------------------------------------INÍCIO----------------------------------------------------------------- */
+#invade{
+  background: white;
+    -webkit-box-shadow: 0px -1px 12px 8px rgba(156,156,156,1);
+    -moz-box-shadow: 0px -1px 12px 8px rgba(156,156,156,1)!important;
+    box-shadow: 0px -1px 12px 8px rgba(156,156,156,1);
+    top: -28px;
+    position: relative;
+    border-radius: 10px;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 34px;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-: 16px;
+  list-style: none;
+  left: -36px;
+}
+.branco .col-md-3{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.branco .offset-md-1{
+margin-left: 8.3%;
+}
+
+.branco h1{
+  font-size: 1em;
+  font-weight: bolder;
+}
+.branco h2{
+  font-size:0.8em;
+}
+.traco{
+  margin-right: 10px;
+  padding-right: 40px;
+
+}
+.etiqueta{
+  padding-top:20px;
+}
+.pdtop20{
+  padding-top:20px;
+}
+#header{
+  background: #57BDA2;
+}
+#header ul{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 8px;
+
+}
+#header ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 62px;
+}
+#header ul li a{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 29px 0;
+    transition: max-height .2s ease-out;
+
+}
+#header ul li a:hover{
+color:#DCB13C;
+text-decoration: none;
+
+}
+#header ul li a:hover{
+
+}
+#submenu{
+  border-right: solid 1px white;
+    padding: 10 0;
+}
+#header #submenu i{
+    margin-left: 2px;
+    margin-top: 2px;
+    padding-right: 15px;
+    color: white;
+}
+#header #submenu i:hover{
+  color: #DCB13C;
+}
+.piscina{
+  background: #304A78;
+  z-index: 10;
+  position: relative;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  top: 36px;
+  border-radius: 10PX;
+}
+#header h3{
+  font-size: 1em;
+  border: solid 1px #DCB13C;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 8px;
+  color: #DCB13C;
+  padding-top: 5px;
+  font-weight: bold;
+  padding-bottom: 5px;
+
+}
+#header h3:hover{
+  background:#DCB13C;
+  color:white;
+}
+.local-link{
+  color:Black;
+}
+.local-link:hover{
+  color:#DCB13C;
+  text-decoration:none;
+}
+
+#map-maker, #envelope , #phone1{
+  color: #DCB13C;
+  background: #304A78;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  line-height: 48px;
+  border-radius: 50%;
+  text-align: center;
+  transition: .3s;
+  margin-right: 15px;
+  box-shadow: 1px 1px 4px black;
+
+}
+
+.saibamais {
+  padding: 2 40 2 40;
+  float: left;
+  margin-right: 7%;
+  margin-top: 20px;
+  background: #DCB13C;
+  color: white!important;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.saibamais2 {
+  padding: 2 40 2 40;
+  background: #57BDA2;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  color: white!important;
+  float: left;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.saibamais2:hover{
+  color:#304A78!important;
+}
+.container1{
+  margin-left: 20%;
+  max-width: 501px;
+}
+#entrar:hover {
+  color:#788864;
+  background:white;
+}
+#Logout{
+position: absolute;
+font-size: 12px;
+color: #DCB13C;
+text-transform: uppercase;
+bottom: 0;
+display:none;
+}
+#login{
+  text-decoration:none;
+  color:white;
+}
+
+.sub-i{
+  position: absolute;
+  top: 25px;
+  left:0;
+  background-color: #304A78;
+  height: 0;
+  overflow: hidden;
+  width:170px;
+  margin-top:10px;
+  text-align: center;
+  border-radius:10px;
+}
+li ul li{
+  padding-left:0!important;
+}
+  #menu-desk li:hover ul, #menu-desk li.over ul{
+    height: 170px;
+    line-height: 40px;
+    opacity: 1;
+    transform: translateY(0);
+    transition: all .5s ease;
+    width:170px;
+    margin-top:10px;
+    text-align: center;
+    padding: 20!important;
+    border-radius:10px;
+  }
+  #menu-desk ul li ul a {
+    text-decoration: underline;
+  }
+
+
+/* --------------------------CARROSSEL---------------------------------- */
+#capa .fa-angle-left, #capa .fa-angle-right{
+  visibility: visible;
+    animation-delay: 1.2s;
+    animation-name: fadeIn;
+    font-size: 5em;
+    margin-top: 20%;
+
+}
+
+#slide-1{
+  font-family: 'Montserrat', sans-serif;
+  height: 65vh;
+  background: url(../imagens/cerebro-cover.png)center no-repeat;
+  background-size: cover;
+  filter: brightness(1.10);
+}
+
+#slide2 h1{
+  margin-top:200px;
+}
+
+#slide1{
+  font-family: 'Montserrat', sans-serif;
+  background: url(../imagens/cerebro-cover.png)center no-repeat;
+  background-size: cover;
+
+}
+#slide2{
+  height:65vh;
+  background: url(../imagens/slide2.png)center no-repeat;
+  background-size: cover;
+
+}
+#slide3{
+  height:65vh;
+  background: url(../imagens/228.png)center no-repeat;
+  background-size: cover;
+
+}
+.call-to-action{
+  margin-top:10%;
+}
+#slide1  h1{
+  margin-top:130px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  FONT-SIZE: 2.5em;
+  TEXT-ALIGN: center;
+  color: white;
+  font-weight: bold;
+  filter: none;
+  text-shadow: 1px 1px 3px black;
+  line-height: 90px;
+}
+#slide2 h1, #slide2 a {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  FONT-SIZE: 2em;
+  text-align: left;
+  font-weight: bold;
+  filter: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+.formu{
+  display:inherit;
+}
+ #slide3 h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  FONT-SIZE: 1.4em;
+  text-align: left;
+  font-weight: bold;
+  filter: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  margin-top:120px;
+}
+#slide3 .saibamais3{
+  background:red;
+}
+#slide2 .saibamais2, #slide3 .saibamais2{
+  font-size: 1.5em;
+  margin-left: 20%;
+  text-shadow: 1px 1px 1px black;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+#slide2 h2, #slide3 h2{
+  font-size: 1.6em;
+  color: white;
+  line-height: 50px;
+
+}
+.mgl0{
+  margin-left:40px!important;
+}
+
+.botao-capa{
+  position: relative;
+  top: 40%;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 65vh;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: rgb(230,230,230);
+}
+.carousel-indicators .active {
+background-color:#304A78
+}
+#capa .carousel-control-next-icon:hover {
+
+
+}
+.carousel-control-prev-icon{
+  background:url(../imagens/left.png);
+  background-size:cover;
+}
+.carousel-control-next-icon{
+  background:url(../imagens/right.png);
+  background-size:cover;
+}
+.carousel-control-prev-icon , .carousel-control-next-icon{
+  width:50px;
+  height:50px;
+}
+ .carousel-control-prev-icon:hover {
+  background:url(../imagens/left.png);center;
+  background-size:cover;
+
+}
+#capa a{
+  text-decoration:none;
+}
+#capa a h2:hover{
+ color:#788864;
+ background:white;
+}
+#linha-2{
+  height:90px;
+}
+.icones-menu{
+  height: 20px;
+  margin-right: 5%;
+  margin-top: 5px;
+}
+/* -------------------------------------------CARROSSEL----------------------------------------------------------------- */
+#carouselExampleIndicators{
+height:65vh;
+}
+/* -------------------------------------------SERVIÇOS----------------------------------------------------------------- */
+#serviços{
+  background: #57BDA2;
+  padding-bottom:30px;
+}
+#serviços .col-md-3{
+  flex: 0 0 32.6%;
+  max-width: 32.6%;
+}
+#serviços .col-md-1{
+  flex: 0 0 0.5%;
+  max-width: 0.5%;
+  background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C) center no-repeat;
+  background-size:cover;
+  padding:2px;
+}
+.box-services{
+  visibility: visible;
+  animation-delay: 1s;
+  animation-name: fadeIn;
+  background:none;
+  padding-top: 120px;
+  padding-bottom: 10px;
+
+}
+
+.box-services h1{
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e2b52b;
+  font-weight: bold;
+
+
+}
+#serviços .col-lg-3{
+  max-width: 23.5%;
+}
+.mleft2{
+  margin-left:2%;
+}
+.mtop10{
+  margin-top:10%;
+}
+.cor1{
+  background: rgb(87,219,162);
+background: linear-gradient(100deg, rgba(87,219,162,1) 0%, rgba(129,228,186,1) 24%, rgba(218,246,234,1) 100%);
+
+
+
+}
+.box-services:hover{
+background: linear-gradient(0deg, rgba(55,80,125,1) 18%, rgba(55,80,125,1) 19%, rgba(236,236,236,1) 100%);
+background-size:cover;
+-webkit-box-shadow: 1px 1px 8px 8px rgba(156,156,156,1);
+-moz-box-shadow: 1px 1px 8px 8px rgba(156,156,156,1);
+box-shadow: 1px 1px 8px 8px rgba(156,156,156,1);
+border-radius:10px;
+position:relative;
+top:-10px;
+padding-bottom:10px;
+
+}
+
+.livro{
+  margin-left: 37.666667%;
+}
+.saude{
+  margin-left: 41%;
+}
+.caixa{
+  margin-left:41%;
+}
+
+/* //-------------------------------------------------------------INSTITUTO-------------------------------------------// */
+#instituto{
+  padding-top: 50px;
+    padding-bottom: 60px;
+    background:#304A78;
+}
+#instituto a:hover, #agende a:hover , #videos a:hover , #neuroblog a:hover, #cadastre-se a:hover{
+  background:white;
+  color:#304A78!important;
+  text-decoration: none;
+}
+#genio{
+  width: auto!important;
+  position: absolute;
+  right: 0%;
+  height: 80%;
+  z-index: 2;
+  bottom: 0;
+}
+#instituto-img{
+  border: white 10px solid;
+
+}
+.triplice{
+  height: 60px;
+  position: relative!important;
+  top: -47px;
+
+}
+.verde{
+  background: url(../imagens/Site_Gif.gif) center;
+    background-size: cover;
+
+}
+
+#Instituto .row{
+display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0px;
+
+}
+#instituto h1{
+  font-weight: bold;
+  margin-bottom: 50px;
+  color:#DCB13C;
+}
+#instituto h2{
+  color: white;
+  text-align: justify;
+  font-size: 1em;
+  line-height: 25px;
+  padding-right: 70px;
+}
+
+
+
+/* ------------------------------------------------------EQUIPE------------------------------------------------------------- */
+
+#equipe{
+  background: #f6f9ff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  color:white;
+}
+#equipe h1{
+  color:rgb(100,100,100);
+  font-weight: 500;
+  font-size:2em;
+  text-align:center;
+}
+#equipe h2{
+  color:rgb(150,150,150);
+  font-weight: 500;
+  font-size:1.5em;
+  text-align:center;
+}
+
+#equipe img{
+width:100%;
+}
+#equipeprev{
+  color:red;
+}
+.seta {
+    height: 200px;
+    top: 35%;
+    width: 200px;
+}
+.trampo{
+  color:rgb(200,200,200);
+}
+@media (min-width: 1200px){
+.container {
+    max-width: 1200px;
+}
+}
+.nome-traco{
+  background: rgb(220,177,60);
+  background: radial-gradient(circle, rgba(220,177,60,1) 17%, rgba(255,255,255,0.4206057422969187) 75%, rgba(255,255,255,0.35057773109243695) 81%);
+  height: 2px;
+  top: -10px;
+  position: relative;
+}
+
+/* ------------------------------------------------------AGENDE------------------------------------------------------------- */
+#agende{
+  background: url(../imagens/agende-bg.png)center fixed;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-size: contain;
+}
+#agende a{
+  font-size: 1.2em;
+}
+#agende h1:first-child{
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.yellow-box{
+  background: #304A78;
+  color: white!important;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.3em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  box-shadow: -1px 3px 1px 0px black;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+#botao-agende{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.botao-perfil{
+  text-align: center;
+    color: white;
+    background: #304a7885;
+    top: 0px;
+    position: relative;
+    padding-top: 27px;
+    height: 132px;
+    margin-top: -132px;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+/* //-----------------------------------------------------VIDEOS -------------------------------------------// */
+
+#videos {
+  background-color: #304A78;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#videos h1{
+  color: white;
+  text-align: justify;
+  font-size: 1.8em;
+  margin-top: 40px;
+}
+#videos h2{
+  font-size:1.4em;
+  color:white;
+}
+#videos .yellow-box{
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* //-----------------------------------------------------NEUROBLOG -------------------------------------------// */
+#neuroblog{
+  background-color:#fff;
+  padding-top:50px;
+  padding-bottom:50px
+}
+.blog-title{
+  text-transform:uppercase;
+  font-weight: bold;
+  color: #304A78;
+}
+#neuro {
+  background: url(../imagens/759.png) center no-repeat;
+  background-size: cover;
+  border: #DCB13C solid 2px;
+  box-shadow: 0px 1px 9px 0px black;
+}
+
+#neuroblog h1{
+  color:#DCB13C;
+  font-weight: bolder;
+}
+#neuroblog h3{
+  color: #304A78;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    top: -39px;
+    text-decoration: underline;
+    left: 0;
+}
+
+#neuroblog h2{
+  font-size:1.4em;
+  line-height: 50px;
+}
+#neuroblog .yellow-box{
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* //-----------------------------------------------------CADASTRE -------------------------------------------// */
+#cadastre-se{
+  background: url("../imagens/dna.jpg") center fixed no-repeat;
+  background-size:cover;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+#cadastre-se h1{
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+.black{
+  color:black!important;
+}
+/* //-----------------------------------------------------DEPOIMENTOS-------------------------------------------// */
+#depoimentos{
+}
+#depoimentos h1{
+  color:black;
+  text-align:center;
+  margin-bottom:30px;
+}
+.depo{
+  background-color:rgb(230,230,230);
+}
+#depoimentos .row{
+  width: 92%;
+}
+/* //-----------------------------------------------------MAPAS - LOCAL -------------------------------------------// */
+#local{
+  background-color: #f6f9ff;
+  padding-bottom:30px;
+  padding-top:30px;
+}
+.mbottom30{
+  margin-bottom:30px;
+}
+.pdtop{
+  padding-top:17px!important;
+}
+.local-buttom{
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #304A78;
+  padding-top: 10px;
+  font-size: 1.4em;
+  color: white;
+  border-radius: 20px;
+}
+
+#local h2{
+  font-weight: bold;
+  font-size:16px;
+}
+.local-buttom:hover{
+  color:white;
+  background:green;
+}
+
+#local h1{
+  text-align: center;
+  margin-top: 45px;
+  font-weight: bold;
+  color: #304A78;
+  background: white;
+  border: 10px solid white;
+  margin-bottom: 45px;
+  margin-right: 20%;
+  margin-left: 20%;
+  border-radius: 50px;
+}
+.unidade{
+  padding:0;
+
+}
+.mapa{
+  width: 100%;
+  height: 300px;
+  border: solid white 4px !important;
+}
+.location-icons{
+  height:50px;
+  margin-left: 5px;
+
+}
+.flex{
+  display: flex;
+  height: 90px;
+}
+#local h3{
+  padding-top: 4px;
+  padding-left: 15px;
+  font-size: 16px;
+  color: #304A78;
+}
+.mbottom{
+  margin-bottom:50px;
+}
+.lugar{
+  text-decoration: underline;
+  color:black!important;
+}
+.none{
+display:none;
+}
+#local .offset-md-1{
+  margin-left:12.3%;
+}
+ #local #map-maker,  #local #calendar-end,   #local #phone1 {
+  color: #DCB13C;
+  background: #304A78;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  line-height: 48px;
+  border-radius: 50%;
+  text-align: center;
+  transition: .3s;
+  box-shadow: 1px 1px 4px black;
+  padding: 0 15;
+}
+.info{
+  padding-left: 10px;
+}
+#info-estudos{
+  padding:30 0;
+}
+#botoes-mapa{
+  font-size: 1em;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 20px;
+  text-align: center;
+
+}
+#spsp, #cucu , #riri{
+  background: #304a78;
+  border-radius: 30px;
+  color: white;
+  padding: 6px;
+  margin-bottom: 26px;
+  font-weight: bolder;
+  box-shadow: 1px 1px 2px 2px black;
+  cursor: pointer;
+}
+#spsp{
+  margin-top: 47px;
+
+}
+/* //-----------------------------------------------------HEADER MOBILE -------------------------------------------// */
+
+
+.header {
+  background: #ffffff;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 100px;
+  top: 0px;
+}
+
+
+.header ul {
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+background-color: #fff;
+}
+
+.header li a {
+display: block;
+padding: 20px 20px;
+border-right: 1px solid #f4f4f4;
+text-decoration: none;
+font-weight: bold;
+}
+
+.header li a:hover {
+background-color: #f4f4f4;
+}
+
+.header .logo {
+clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+    background: #ffffff;
+    text-align: center;
+
+}
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+  background: #ffffff;
+  text-align: center;
+}
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+  top: 22px;
+}
+
+.header .menu-icon .navicon {
+background: #333;
+display: block;
+height: 2px;
+position: relative;
+transition: background .2s ease-out;
+width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+background: #333;
+content: '';
+display: block;
+height: 100%;
+position: absolute;
+transition: all .2s ease-out;
+width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+top: -5px;
+}
+.header .menu-btn {
+display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+max-height: 400px;
+margin-top: 100px;
+}
+.header a{
+  color:#304A78;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+top: 0;
+}
+@media (min-width: 992px) {
+.header li {
+  float: left;
+}
+.header li a {
+  padding: 20px 30px;
+}
+.header .menu {
+  clear: none;
+  float: right;
+  max-height: none;
+}
+.header .menu-icon {
+  display: none;
+}
+.header{
+  display:none;
+}
+}
+@media (max-width: 992px){
+  #header{
+    display:none;
+  }
+}
+
+footer{
+  background: #304a78;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+}
+footer img{
+  width:100%;
+}
+#logo-footer{
+  padding-right:25px;
+}
+footer i{
+  font-size: 2em!important;
+    color: white;
+    padding-right:10px;
+    margin-top: 27px;
+}
+#midias-footer a{
+
+}
+#midias-footer a:hover{
+  background:none;
+  color:red;
+
+}
+#midias-footer{
+  border-left: 1px solid #DCA13C;
+
+}
+
+footer h1{
+  font-size: 1em;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+footer li{
+  list-style: none;
+  line-height: 30px;
+  color:white;
+}
+footer li:hover{
+  color:#DCB13C;
+  text-decoration: none;
+}
+  footer i:hover{
+  color:#DCB13C;
+}
+footer li a :hover{
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration:none;
+}
+/* ------------------------------------------------------------------------------PÁGINA O INSTITUTO--------------------------------------------------------- */
+
+.clinica{
+  margin-top:70px;
+}
+/* ---------------------------------------------------SOBRE NOS------------------------------------------------------ */
+#sobre-nos{
+  padding: 35px;
+  background: url(../imagens/textura.png) 50% 50% no-repeat;
+  position: relative;
+  /* top: -75px; */
+  padding-top: 75px;
+  background-size: cover;
+
+}
+#sobre-nos h1{
+  color: white;
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+.subtitle{
+  width: 20%;
+  height: 4px;
+  background: rgb(87,189,162);
+background: radial-gradient(circle, rgba(87,189,162,1) 17%, rgba(255,255,255,0.4206057422969187) 75%, rgba(255,255,255,0.35057773109243695) 81%);
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 40px;
+}
+#sobre-nos h2, .equal{
+  text-align: justify;
+  font-size: 1.1em;
+  line-height: 23px;
+  color: white;
+  background: #304A78;
+  padding: 15px;
+  border-radius: 20px;
+}
+#sobre-nos img{
+  width:100%;
+}
+
+#sobre-nos h3{
+  font-weight: bold;
+  margin-top:10px;
+  margin-bottom:20px;
+  font-size:2em;
+}
+#sobre-nos .col-md-12{
+  margin-top:30px;
+}
+.mtop40{
+  margin-top:40px!important;
+}
+#neurop{
+  padding-bottom: 40px;
+}
+#neurop h1{
+  font-weight: bolder;
+  color: #304A78;
+  text-align: center;
+  margin-top: 30px;
+
+}
+#neurop h2{
+  font-size: 1.5em;
+    line-height: 29px;
+    text-align: justify;
+}
+#neurop img{
+  width: 100%;
+  height: 30%;
+}
+/* -----------------------------------------------------------------THE TEAM--------------------------------------------------------- */
+#our-team{
+  background: rgb(250,250,250);
+  padding: 40px;
+}
+
+#our-team h1{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #304A78;
+}
+#our-team .names{
+  text-align: center;
+  background: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #304A78;
+  position:relative;
+}
+#our-team a:hover{
+  text-decoration: none;
+  position:relative;
+}
+#our-team a:hover .cc-sm {
+  height:35px;
+  position: absolute!important;
+  left: 26%;
+  top: 50%;
+  color: white !important;
+  background:#304A78;
+  text-shadow: 1px 1px 1px black;
+  padding: 0 10;
+  border-radius:10px;
+}
+.cc-sm {
+  overflow: hidden;
+  height:0;
+  position:absolute!important;
+  top: 0;
+  color: #DCB13C!important;
+  text-shadow: 1px 1px 1px black;
+  transition:ease-out 0.5s;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+
+#our-team h2{
+  font-size: 1em;
+  text-align: center;
+  color: #304A78;
+  background: none;
+}
+.brain-icon{
+  width: 30px!important;
+  background: none!important;
+  box-shadow: none!important;
+  border: none!important;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.icon{
+  border: #DCB13C solid;
+  background: #304A78;
+  border-radius: 50%;
+  font-size: 1.2em;
+  color: #DCB13C;
+  margin: 0 auto;
+  padding: 5px;
+  margin-left: 42%;
+  top: -15px;
+  position: relative;
+}
+.center{
+  text-align:center;
+}
+
+.photos{
+  background:url("https://wp.xpeedstudio.com/medizco/wp-content/uploads/2019/08/team-2.jpg")center;
+  background-size:cover;
+  height:300px;
+  border-left:5px solid white;
+
+}
+
+.white{
+  background:none;
+  width:30px;
+}
+
+@media (min-width:1200px){
+#our-team .col-xl-3 {
+  flex: 0 0 25%;
+  max-width: calc(25% - 23px);
+  padding: 0;
+  background: white;
+  border: solid #DCB13C 3px;
+  -webkit-box-shadow: 3px 6px 10px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 6px 10px -1px rgba(0,0,0,0.75);
+  box-shadow: 3px 6px 10px -1px rgba(0,0,0,0.75);
+  overflow: hidden;
+}
+}
+#our-team img{
+
+  width: 100%;
+  background: rgb(87,189,162);
+  background: linear-gradient(7deg, rgba(87,189,162,1) 0%, rgba(255,255,255,0.7399334733893557) 100%);
+
+}
+.no-border{
+  border:none!important;
+}
+
+/* --------------------------------------------------------------------------PROFILE--------------------------------------------------------------------------------------- */
+
+.profile{
+  border: white solid 10px;
+  position: relative;
+  top: 35px;
+  width: 100%;
+  padding: 0;
+  border: white solid 10px;
+  border-radius: 69%;
+  position: relative;
+  top: 35px;
+  width: 100%;
+  background: rgba(250,250,250,0.6);
+  background: rgb(44,50,89);
+  background: linear-gradient(180deg, rgba(44,50,89,1) 0%, rgba(44,50,89,1) 0%, rgba(255,255,255,1) 88%);
+  padding: 0;
+  filter: drop-shadow(3px 3px 4px black);
+}
+.name-profile{
+  color:white;
+  top:35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+#currículo h1{
+  font-size: 2em;
+  color: #868686;
+  position: relative;
+  top: -50px;
+}
+.subir{
+  position: relative;
+    top: -50px;
+}
+#currículo h2{
+  font-size:1.4em;
+}
+
+.sobrenos{
+  text-align: center;
+  font-weight: :bold;
+  margin-top: 30px;
+  padding-left: 15px;
+  font-size: 2em;
+  text-transform:uppercase;
+}
+.subtitle1 {
+  width: 30%;
+  height: 4px;
+  background: #57BDA2;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 40px;
+}
+.sobrenos p{
+  font-size:14px;
+  color:white;
+  text-align:justify;
+}
+#formation{
+  padding-bottom:40px;
+}
+#formation h1{
+  font-size: 2em;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+#formation h2{
+  font-size:14px;
+}
+#formation h3{
+  font-size: 20px;
+  background: #57bda2;
+  padding: 10px 10;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  margin-right: 23%;
+  margin-bottom: 30px;
+  filter: drop-shadow(3px 3px 4px black);
+  font-weight: bolder;
+}
+#formation i{
+  padding: 10px;
+  border: solid #304A78;
+  color: #DCB13C;
+  border-radius: 20px;
+  line-height: 10px;
+  background: #304A78;
+}
+#formation i:hover{
+  padding: 10px;
+  border: solid #304A78;
+  color: white;
+  border-radius: 20px;
+  line-height: 10px;
+  background: #DCB13C;
+}
+#formation ul{
+
+  line-height: 30px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
+
+}
+
+#about2{
+  background: url(../imagens/textura-nova.png);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 150px;
+  padding-bottom: 0px;
+  top: -99px;
+  position: relative;
+  height: 369px;
+
+}
+.formation-box{
+  border-radius: 20px;
+    background: #304a78;
+    padding: 20;
+    filter: drop-shadow(3px 3px 4px black);
+}
+
+/* -------------------------------------------------------------------------CLINIC------------------------------------------------------------------------------ */
+#rehab , #treino ,#psicoterapia, #juridica , #neurofeedback{
+  display:none;
+}
+
+#menu-lateral{
+  text-transform:uppercase;
+}
+#menu-lateral li:hover{
+  color:white;
+  text-shadow: 1px 1px 1px black;
+  -webkit-box-shadow: 1px 1px 8px 8px rgba(156,156,156,1);
+-moz-box-shadow: 1px 1px 8px 8px rgba(156,156,156,1);
+box-shadow: 1px 1px 8px 8px rgba(156,156,156,1);
+  background: linear-gradient(0deg, rgba(55,80,125,1) 18%, rgba(55,80,125,1) 19%, rgba(236,236,236,1) 100%);
+  padding-left:10px;
+  border-radius:5px;
+}
+#menu-lateral nav li {
+  border-bottom: solid 1px #57BDA2;
+
+}
+.fullpct{
+  width:100%;
+
+}
+.clinica h2{
+  font-weight: bold;
+  font-size:1.5em;
+  color:#304A78;
+}
+.clinica h3{
+  font-size:16px;
+  text-align: justify;
+}
+.clinica h3 b{
+  font-size: 18px;
+  line-height: 54px;
+  color: #304A78;
+}
+#neuropsi-img{
+  background:url(../imagens/neuropsi-img.png) center no-repeat;
+  background-size:cover;
+}
+.vertical-space{
+  margin:20 0;
+}
+.clinica h4{
+  color:#DCB13C;
+  font-size:1.2em
+}
+.clinica h5{
+  font-size:1em;
+}
+#treino-img{
+  background:url("https://cliapsicologia.com.br/wp-content/uploads/2017/09/Neuropsicologia-em-Santo-Andre.jpg") no-repeat;
+  background-size:cover;
+}
+#psicoterapia-img{
+  background:url(https://cdn.secad.com.br/wp-content/uploads/2019/02/psicoterapia-primeira-consulta.jpg) no-repeat;
+  background-size:cover;
+}
+#rehab-img{
+  background:url(https://image.shutterstock.com/image-photo/cognitive-rehabilitation-therapy-dementia-function-600w-1480992440.jpg)no-repeat;
+  background-size:cover;
+}
+#juridico-img{
+  background:url(https://i1.wp.com/www.megajuridico.com/wp-content/uploads/2018/02/psicologia-juridica.png?fit=1280%2C720&ssl=1) no-repeat center;
+  background-size:cover;
+}
+/*
+--------------------------------------------------------------------------------------MENU LATERAL(CLINICA)-------------------------------------------------- */
+
+#menu-lateral{
+  background: #304a78b5;
+  color: white;
+  line-height: 45px;
+  border-radius: 10px;
+  text-align:left;
+}
+
+#menu-lateral nav a{
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-weight: bold;
+}
+
+
+
+.subtitle-menu{
+  background: #57BDA2;
+  height: 0.1px;
+  width: 20%;
+  margin: 0;
+}
+.clinica h1{
+  margin: 0 auto;
+    text-align: center;
+    font-weight: 900;
+    color: #304A78;
+}
+.clinica b{color:#304A78;}
+.gold-line{
+  background:#DCB13C;
+  height:1px;
+  margin-bottom:20px;
+}
+.promotion{
+  background:white;
+}
+/* ---------------------------ENSINO-------------------------- */
+#ensino{
+  padding-top: 100px;
+  background: #213559;
+  padding-bottom: 100px;
+}
+#ensino .col-md-4{
+  background:none;
+
+}
+#ensino .col-md-4:hover{
+
+
+}
+
+
+.comprar{
+  background: #57BDA2;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 5 30;
+}
+.central{
+  margin-left: 35%;
+  margin-right: 35%;
+
+}
+
+#ensino h1{
+  color: white;
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 10px;
+}
+#ensino h2{
+  color:#DCB13C;
+  font-size:1em;
+  margin-left:5px;
+  background:white;
+  text-align: center;
+}
+#ensino h3{
+  color:rgb(50,50,50);
+  font-size:0.8em;
+  margin-left:5px;
+  background:white;
+  line-height: 30px;
+}
+.branco{
+  background: rgb(250,250,250);
+}
+.know-more{
+  background: #57BDA2;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  bottom: 10px;
+  position: relative;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+#ensino-video{
+  background: #57BDA2;
+  color: white;
+  padding: 80px 0;
+}
+#ensino-video h1{
+  font-weight: bold;
+  font-size: 2em;
+}
+#ensino-video h2{
+font-size:1em;
+}
+#color-break h1{
+  font-size:1.5em;
+  text-align:center;
+}
+.caixas-ensino{
+  background:white;
+  background: white;
+    filter: drop-shadow(2px 4px 6px black);
+    border: solid #DCB13C;
+}
+.menuzin ul li{
+  display:inline;
+  font-size:1.4em;
+  background:#304A78;
+  color:white;
+}
+.mercadopago-button {
+  padding: 0 1.7142857142857142em;
+  font-family: montserrat;
+  font-size: 0.875em;
+  line-height: 2.7142857142857144;
+  background: #304A78!important;
+  border-radius: 0.2857142857142857em;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  content: "Comprar";
+  font-weight: bold;
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 30px;
+}
+
+.caixa1{
+  border:#DCB13C solid 2px;
+  border-radius:20px;
+  background:white;
+  padding: 30px;
+}
+.caixa1 h1{
+  font-size:1.6em;
+  color:#304A78;
+}
+.caixa1 h2{
+  font-size:1.2em;
+}
+.caixa1 h3{
+  font-weight: bold;
+  color: #304A78;
+  font-size: 1.2em;
+  margin: 20;
+}
+/* ----------------------------------------------------YOUR MAIL------------------------------------------------ */
+#color-break{
+  background:rgb(230,230,230);
+  padding-bottom: 40px;
+}
+#color-break input{
+  border:none;
+}
+#color-break input:hover{
+  border:none;
+}
+#color-break h1{
+  padding: 15px 0;
+  color:#304A78;
+  font-weight: bolder;
+  font-size: 2em;
+}
+.your-mail{
+  background:white;
+}
+.retangle-mail{
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+#Inscreva-se{
+color: rgb(150,150,150);
+}
+
+#inscreva-se textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+/* ------------------------------------------------------------------PRODUTOS----------------------- */
+#product-list{
+  background: url(../imagens/textura.png);
+  padding-bottom: 50px;
+  padding-top: 141px;
+  background-size: cover;
+}
+#product-list img{
+  height: 300px;
+  box-shadow: 2px 3px 5px 2px;
+}
+#product-list h1{
+  color: white;
+  margin-top: 30px;
+  text-shadow: 1px 2px 4px black;
+  font-size: 1.8em;
+}
+#product-list i{
+  color:#DCB13C;
+}
+#product-list h2{
+  background: #304A78;
+  border-radius: 20px;
+  color: WHITE;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+  margin-right: 26%;
+}
+#product-list h3{
+font-size: 1em;
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.grey{
+  color:rgb(70,70,70);
+  font-size:0.8em;
+}
+#produto1{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+.product-title{
+  color:#304A78;
+
+}
+.fa-star{
+  color:#DCB13C;
+  letter-spacing: 6px;
+}
+.units-sold{
+  font-size:1.4em;
+  margin-bottom:15px;
+}
+/* ----------------------------------------------------------CONTATO------------------------------------------- */
+
+#contact{
+  padding-top: 100px;
+  position: absolute;
+
+}
+#row-contact{
+  background: #ffffff80;
+  padding-top: 40px;
+  border-radius: 20px;
+}
+#enviar{
+  background: #304A78;
+  color: white;
+  padding: 5 100;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 10px;
+}
+#enviar:hover{
+  box-shadow: -1px 3px 1px 0px black;
+  background:#DCB13C;
+  border-radius: 10px;
+
+}
+#contact h1{
+  color:white;
+  margin-left:15px;
+  text-shadow:1px 1px 1px black;
+  margin-bottom:30px;
+  text-align: center;
+}
+#contac input{
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.yellow{
+  color:#DCB13C;
+  text-shadow:none;
+  text-decoration:none;
+}
+li.yellow:hover{
+  text-decoration:none;
+
+}
+
+.particles-js-canvas-el{
+  height:1200px;
+}
+/* -------------------------------------------------------USERS--------------------------------------------------------------------- */
+#users{
+    position: absolute;
+    top: calc(5% + 230px);
+    left: 18%;
+}
+#users h1{
+  text-align:center;
+}
+#users h2{
+  color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+    padding: 0px 20 10;
+}
+.form-login{
+  background: #ffffff80;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+
+
+/* ---------------------------------------------------MEDIAS-------------------------------------------------------------------------- */
+
+@media (max-width:992px){
+  #logo{
+    position: fixed;
+      width: 340px;
+      top: 5;
+      left:5;
+      z-index: 10;
+      footer i {
+        font-size: 1em!important;
+        color: white;
+        padding-right: 10px;
+        margin-top: 27px;
+    }
+  }
+
+}
+
+
+@media (max-width:1200px){
+  /* body{
+    display:none!important;
+  } */
+
+#header ul li {
+  padding-left: 6%;
+}
+}
+@media (max-width:768px){
+  #instituto-img{
+    display:none;
+  }
+
+}
+/* -------------------------------------------------------------------Estudos-------------------------- */
+#estudos{
+  padding:100px 0;
+}
+#estudos h1{
+  color: #304A78;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size:2em;
+}
+#estudos h2{
+  font-size:1.4em;
+  text-align: justify;
+}
+#estudos span{
+  color: #DCB13C;
+  font-size: 10px;
+  background: #304A78;
+  position: relative;
+  bottom: 5px;
+  padding: 5 20;
+  border-radius: 20px;
+}
+#estudos .images{
+  width: 100%;
+  margin-bottom: 30px;
+  filter:drop-shadow(2px 4px 6px black);
+  height:auto;
+}
+#semana{
+  background: url(../imagens/dna.jpg) center fixed;
+  padding: 60 0;
+  background-size: cover;
+}
+#semana h1 {
+  color: #DCB13C;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  font-weight: 900;
+  text-shadow: #304A78 1px 1px 1px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#semana h2{
+  text-align:center;
+  padding: 0 10;
+  background:red;
+  color:white;
+  margin-left:20%;
+  margin-right:20%;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: #304A78 1px 1px 1px;
+  font-size:1.6em;
+  filter: drop-shadow(2px 4px 6px black);
+}
+#estudo-grupos{
+  padding: 60 0;
+  background:url(../imagens/textura.png) center no-repeat;
+  background-size:cover;
+}
+.newbox{
+  border:solid #DCB13C;
+  padding-bottom: 50px;
+}
+.newbox h1{
+  color: #304A78;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  margin: 20 0px;
+}
+.newbox h2{
+  margin: 10 5;
+  font-size: 1.3em;
+  line-height: 26px;
+}
+.newbox h3{
+  font-size: 1.2em;
+  color: #304A78;
+  text-shadow: 1px 1px 1px #0000007a;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.newbox h4{
+  font-size:0.8em;
+  font-weight: bold;
+}
+.clicks{
+  cursor: pointer;
+  font-size: 1.4em;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background: #57BDA2;
+  color: white;
+  margin-top: 15px;
+  text-align: center;
+  border-left: solid 10px;
+  border-radius: 10px;
+  border-right: solid 10px;
+}
+.clicks:hover{
+  color:#dcb13c;
+  text-decoration: underline;
+  background:#304A78;
+}
+#sobre-a,.aval-a{
+  padding: 30px 0px;
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 40px;
+  color:#304A78;
+  padding-top:1px;
+}
+#sobre-a h2 , #aval-b h2, #rehab-b h2, #sobre-a h1{
+  margin-top:40px;
+  font-weight: bolder;
+}
+
+
+.aval-a .col-md-5{
+  color: white;
+  border-radius: 20px;
+  padding: 20px 10;
+  margin-bottom: 20px;
+  background: #304A78;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.aval-a{
+  text-align: center;;
+}
+.h1h1{
+color:#DCB13C;
+font-size:2.5em!important;
+margin-top: 100px;
+}
+
+.h2h2{
+color:white;
+text-shadow:1px 1px 1px black;
+font-size:1.6em!important;
+}
+.aval-a h3{
+  padding: 0px 5px;
+  color: #DCB13C;
+  border-radius: 20px;
+  border: solid #DCB13C 2px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.aval-a h4{
+  font-size: 1em;
+  line-height: 30px;
+  text-align:center;
+}
+.aval-a h2{
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+  font-size: 2em;
+}
+.aval-b h3{
+  font-size:1.3em;
+  color:#304A78;
+  line-height: 40px;
+}
+.aval-c{
+  text-align: center;
+  background: #304a78;
+  PADDING: 1;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.xxx{
+  background: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  color: #DCB13C;
+  border: solid;
+
+}
+@media (min-width: 992px){
+.aval-c .col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 29.333333%;
+    margin-left: 4%;
+}
+}
+.especifications{
+  line-height: 40px;
+  letter-spacing: 3px;
+  padding-left:30px;
+}
+.especifications b{
+  margin-left:10px;
+  margin-right:20px;
+}
+.especifications h3{
+  margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.newnew{
+  font-size:1em;
+}
+
+/* -------------------------------------------------------------RESPONSIVIDADE------------------------------------------------------------- */
+
+@media (max-width:1200px){
+  .white{
+    width:0;
+  }
+  #genio {
+    width: 425px!Important;
+    height: auto;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    bottom: 0;
+}
+#youtube-video{
+  width: calc(1600px/3);
+  height: calc(900px/3);
+}
+#slide2 h1, #slide2 a, #slide3 h1, #slide3 a {
+  text-align: left;
+}
+.caixas-ensino {
+  margin: 20 0;
+
+}
+}
+
+
+
+
+@media (min-width:992px max-width:1200px){
+  #currículo h2 {
+    font-size: 1em!important;
+}
+
+
+  }
+
+@media (max-width:992px){
+  #logo{
+    position: fixed;
+    width: 200px;
+    top: 20px;
+    left: 10px;
+    z-index: 10;
+
+  }
+  .carousel-inner {
+    margin-top: 78px;
+}
+    .container{
+      max-width: 100%;
+
+    }
+  }
+
+  #neurop img {
+    width: 55%;
+    margin: 0 auto;
+}
+  .map{
+    margin-bottom:20px;
+  }
+  #local.container{
+    margin:0;
+  }
+  #genio {
+    width: auto!important;
+    position: absolute;
+    height: 60%;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+@media (max-width:769px){
+  #neurop h2 {
+    font-size: 1.5em;
+    line-height: 29px;
+    text-align: center;
+}
+.flickity-page-dots .dot {
+  display: inline-block;
+  width:10px!important;
+  height: 10px!important;
+  margin: 0 8px;
+  background: #f3efef;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#slide2 .saibamais2, #slide3 .saibamais2 {
+  font-size: 1em;
+  margin-left: 20%;
+}
+.carousel-cell {
+  width: 100%;
+  height: 100%!important;
+
+}
+.carousel{
+  height:100%;
+}
+.flickity-viewport {
+  height: 100%!important;
+}
+#videos h1 {
+  color: white;
+  text-align: left;
+  font-size: 1.8em;
+  margin-top: 40px;
+}
+#instituto h2 {
+  color: white;
+  text-align: left;
+  font-size: 1em;
+  line-height: 35px;
+  padding-right: 70px;
+}
+
+  #midias-footer {
+    text-align: center;
+    border:none;
+}
+footer img {
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+}
+footer .fa{
+  font-size:2em!important;
+}
+#capa h1{
+  font-size:1.2em;
+}
+#capa h2{
+  font-size:22px;
+  text-align:center;
+}
+.call-to-action {
+  position: absolute;
+  bottom: 30%;
+}
+.saibamais2 {
+  margin-left: 20%;
+  background: #57BDA2;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  color: white!important;
+  margin-right: 20%;
+  border-radius: 20px;
+}
+#slide2 h2, #slide3 h2 {
+  margin-top: 20px;
+  float: left;
+  line-height: 31px;
+  font-weight: bold;
+  color: #57DBA2;
+  text-shadow: 1px 1px 1px black;
+}
+.profile {
+
+  width: 36%;
+  margin-left: 20px;
+
+}
+#neuro {
+  height: 300px;
+}
+#neuroblog{
+text-align: center!important;
+}
+#neuroblog .yellow-box {
+  margin: 0 auto;
+  float: left;
+}
+#neuro {
+  margin-top: 30px;
+}
+.yellow-box {
+  margin-left: 30%;
+}
+}
+
+@Media (min-width:1500px){
+  #genio{
+    width: auto!important;
+    position: absolute;
+    right: 10%;
+    height: 85%;
+    z-index: 2;
+    bottom: 0;
+  }
+}
+
+@media (max-width:992px min-width:768px){
+  #midias-footer {
+    font-size: 26px!important;
+}
+}
+
+
+
+
+
+
+
+
+/* external css: flickity.css */
+
+{ box-sizing: border-box; }
+
+
+/* prevent vertical scroll bar glitch */
+html { overflow-y: scroll; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: none;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+
+.flickity-viewport{
+  height: 65vh;
+}
+.carousel-cell {
+  width: 100%;
+  height: 65vh;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+
+

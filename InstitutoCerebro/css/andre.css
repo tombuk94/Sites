@@ -1,0 +1,257 @@
+html {
+    scroll-behavior: smooth;
+    width:100%;
+  }
+body{
+    font-family: 'Montserrat', sans-serif;
+    background:#090909;
+    width:100%;
+}
+/* -------------------------------------------INÍCIO----------------------------------------------------------------- */
+
+.menu{
+    background:black;
+}
+header{
+    position:fixed;
+    top:20px;
+    z-index:10;
+    background:black;
+    width:100%;
+}
+header nav{
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    background: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header li {
+    display:inline-block;
+   list-style: none;
+   text-transform: uppercase;
+}
+header li a{
+    color:white;
+    font-size: 14px;
+    text-decoration: none;
+}
+header li a:hover{
+    color:#ff4b00;
+    text-decoration: none;
+}
+#logo-header{
+    position:fixed;
+    left:30px;
+    top:23px;
+}
+.nav-menu  li {
+    margin: 0 20px 0 30px;
+}
+#logo-header{
+    top:20px;
+    z-index:10;
+}
+
+
+#entrar {
+    border: solid #ff4b00;
+    border-radius: 20px;
+    background: #ff4b00;
+    padding-left: 16px;
+    padding-top: 2px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+}
+#entrar:hover {
+    border: solid #fff;
+    border-radius: 20px;
+    background: #fff;
+    padding-left: 16px;
+    padding-top: 2px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+    color:#ff4b00:
+}
+#slide1{
+    font-family: 'Montserrat', sans-serif;
+    background:url(../imagens/CAPA_ANDRE.png) no-repeat;
+    background-size:cover;
+    height:100%;
+
+}
+
+#slide1  h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    FONT-SIZE: 30PX;
+    TEXT-ALIGN: center;
+    top: 37%;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    filter: none;
+}
+#efeito-leitura {
+    background: black;
+    top: 46%;
+    position: relative;
+    border-radius: 50%;
+    height: 100px;
+    width: 43%;
+    filter: blur(50px);
+    margin: 0 auto;
+}
+
+#botao-capa{
+    position: relative;
+    top: 40%;
+}
+#slide1 a h2{
+    background: #ff4b00;
+    padding: 12px 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    text-transform: uppercase;
+    text-align: center;
+    width: 11%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height:100%;
+}
+.carousel-control-next-icon {
+    background-image: url(../imagens/right-arrow.png);
+    display: inline-block;
+    width: 10%;
+    height: 4%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../imagens/left-arrow.png);
+    display: inline-block;
+    width: 10%;
+    height: 4%;
+}
+.carousel-indicators .active {
+    background-color: #FF4B00;
+}
+.carousel-control-next-icon:hover {
+    background-image: url(../imagens/right-arrow2.png);
+    display: inline-block;
+    width: 10%;
+    height: 4%;
+}
+
+.carousel-control-prev-icon:hover {
+    background-image: url(../imagens/left-arrow2.png);
+    display: inline-block;
+    width: 10%;
+    height: 4%;
+}
+#capa a{
+    text-decoration:none;
+}
+#capa a h2:hover{
+   color:#ff4b00;
+   background:white;
+}
+/* -------------------------------------------VIDEO----------------------------------------------------------------- */
+
+#video{
+
+}
+
+
+
+/* -------------------------------------------SOBRE----------------------------------------------------------------- */
+#sobre{
+    background: url(../imagens/violao_bg.png)no-repeat center fixed;
+    background-size: cover;
+    width: 99%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#logo-sobre {
+    margin-left: 46.6%;
+    margin-top: 6%;
+}
+#sobre h1{
+    color: rgb(240,240,240);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -80px;
+
+    }
+    #sobre h2{
+        color: rgb(240,240,240);
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: justify;
+        margin-top: 60px;
+        font-size: 1em;
+        position:relative;
+    }
+    @media (min-width: 992px){
+    #sobre .offset-lg-1 {
+        margin-left: 6.333333%;
+    }
+}
+
+.right2pct{
+    margin-right: 2%;
+}
+/* -------------------------------------------Creator----------------------------------------------------------------- */
+#creator{
+    background:url(../imagens/CREATOR.png) no-repeat;
+    height:100%;
+    background-size:cover;
+}
+
+#creator h1{
+    color: #ff4b00;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    width: 93%;
+    padding-top: 5%;
+    margin-bottom: 2%;
+}
+
+#creator h2{
+    color: white;
+    margin-left: 5%;
+    font-size: 1.45em;
+    margin-right: 5%;
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#create{
+    height: 100%;
+    margin-left: 43%;
+}
+
+#creator .col-lg-6{
+    position: relative;
+    left: 50%;
+    top: -100%;
+}
+.icones-creator img{
+    height: 5%;
+    margin-left: 3%;
+    float: right;
+    margin-top: 5%;
+}

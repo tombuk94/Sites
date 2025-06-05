@@ -1,0 +1,427 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+#menu{
+    color: white;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 120px;
+    right: 5%;
+    z-index:1;
+}
+#menu ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+#menu li{
+    padding:30 0;
+    font-size: 20px;
+    font-weight: 500;
+    background:black;
+}
+#menu li:hover{
+    background:#466b6e;
+}
+
+#menu a{
+    text-decoration:none;
+    color:white;
+
+}
+
+#capa{
+    background: url(../imagens/teste2.png) bottom no-repeat;
+    height: 100%;
+    background-size: cover;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+#capa h1{
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'Montserrat', sans-serif;
+}
+#capa h2{
+    color: white;
+    text-align: center;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    }
+    #capa hr{
+        width:35%;
+        background: white;
+    }
+
+    .seta-baixo{
+        position: absolute;
+        bottom: 0;
+        right: 5%;
+        width: 120px;
+        height: 80px;
+        background: #222222;
+        text-align: center;
+        color:white;
+
+    }
+    .seta-menu{
+        animation: anima 1500ms ease infinite;
+    }
+    @keyframes anima {
+        to {
+            transform: scale(0.85) translateY(20px);
+        }
+    }
+    .seta-menu{
+        font-size:2em;
+        margin-top:20px;
+    }
+
+        /* /////////////////////////////////////PROFILE///////////////////////////////////////// */
+
+#profile h1, #experiences h1, #abilities h1, #projects h1, #contact h1{
+    text-align: center;
+    color: #466b6e;
+    font-weight: 300;
+    font-size:54px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 10px;
+}
+#profile h2, #experiences p, #abilities p, #projects p{
+    text-align: center;
+    color: #000000a3;
+    font-weight: 300;
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+main{
+    text-align:center;
+}
+
+#tomas-circle{
+    max-width:200px;
+    filter: drop-shadow(0px 0px 7px black);
+}
+
+#profile h3{
+    color: #466b6e;
+    font-size:28px;
+    font-weight: 300;
+    text-align:left;
+}
+#profile p{
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+#profile .row{
+    margin-bottom:40px;
+}
+
+.meio{
+    text-align:center;
+}
+
+
+/* ////////////////////EXPERIENCES///////////////////// */
+#experiences{
+    background: #f3efe0;
+    padding: 30 0;
+}
+#experiences h3{
+    font-weight: 500;
+    background: #466b6e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+#experiences h4{
+    font-weight:700;
+    margin-bottom:10px;
+    margin-top:10px;
+    font-size:18px;
+    color:#000000bf;
+}
+.left{
+    text-align:left!important;
+}
+#logo-mack{
+   width:30px;
+}
+#evoluservices-logo{
+    max-width: 200px;
+    margin-bottom:10px;
+}
+#experiences b{
+    font-size:21px;
+    color:#000000bf;
+}
+
+/* ///////////////////////////////////////////ABILITIES///////////////////////// */
+
+#abilities{
+    padding-bottom:40px;
+    margin: 35px;
+}
+
+#abilities h3{
+    color: #466b6e;
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+#abilities ul{
+    list-style:none;
+    padding:0;
+}
+.skill{
+    font-size:18px;
+    color: #434242;
+    font-family: 'Montserrat';
+}
+.estrelas{
+    float:right;
+    color:#466b6e;
+}
+#abilities li{
+    margin-bottom:15px;
+}
+
+/* /////////////////////PROJECTS/////////////////// */
+
+#projects{
+    background:#f3efe0;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.box{
+    max-width: 100%;
+    margin-bottom:40px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+/* //////////////////////CONTACT///////////////////// */
+
+#contact{
+    background: #434242;
+    padding:40 0;
+    padding-bottom:100px;
+}
+#contact h1{
+color:white;
+letter-spacing: 0px;
+}
+#contact p{
+text-align: center;
+color: #727878;
+font-weight: 300;
+font-size: 21px;
+margin-bottom: 40px;
+}
+#contact hr{
+    background:#727878;
+}
+#contact i{
+    font-size: 40px;
+    color: #c5c2c2;
+    margin-right:20px;
+}
+.final{
+color:#c5c2c2;
+font-size:18px;
+}
+.redes{
+    text-align: center;
+}
+
+.redes a i:hover{
+    background:#466b6e;
+
+}
+
+@media  (max-width: 768px) {
+
+
+        h1,h2,h3{
+            text-align:center!important;
+        }
+    #menu{
+        visibility:hidden;
+    }
+#expiriences h3{
+    text-align:center;
+}
+#profile p{
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 40px;
+}
+.left{
+    text-align:center!important;
+}
+.col-12{
+    text-align:center!important;
+}
+.menu-cel body {
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  .menu-cel a {
+    text-decoration: none;
+    color: white;
+    opacity:1;
+    font-family: 'work sans', sans serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    transition: 200ms;
+  }
+  .menu-cel a:hover {
+    opacity:0.5;
+  }
+  .menu-cel  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+
+
+  .menu-cel .container {
+    margin-top: 50px;
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-cel  .phone {
+    width: 80px;
+    position: fixed;
+    background: #00000091;
+    top: 0;
+    left: 0;
+  }
+  .menu-cel  .content {
+
+    border-radius: 20px;
+    width: 94%;
+    height: 91%;
+
+
+  }
+  .menu-cel  nav {
+
+    height: 65px;
+  }
+
+
+  #menuToggle {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle input
+  {
+    display: flex;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+  }
+
+  #menuToggle span
+  {
+    display: flex;
+    width: 29px;
+    height: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #ffffff;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 0px 10px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child
+  {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+
+  #menuToggle input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-3px, -1px);
+    background: #36383F;
+  }
+  #menuToggle input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #menuToggle input:checked ~ span:nth-last-child(2)
+  {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  #menu2
+  {
+    position: absolute;
+    width: 250px;
+    text-align: center;
+    margin: -50px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background-color: #000000cf;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+
+  #menu2 li
+  {
+    padding: 10px 0;
+    transition-delay: 2s;
+  }
+
+  #menuToggle input:checked ~ ul
+  {
+    transform: none;
+  }
+
+  }
+
+
+
+
+
+
+
+
