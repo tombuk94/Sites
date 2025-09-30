@@ -28,8 +28,9 @@ EN:
 
 Clone this repository:
 
-git clone https://github.com/SeuUsuario/MeuSiteEstático.git
-cd MeuSiteEstático
+git clone https://github.com/tombuk94/Sites
+
+cd Sites
 
 
 Open index.html in your browser.
@@ -38,8 +39,9 @@ PT:
 
 Clone este repositório:
 
-git clone https://github.com/SeuUsuario/MeuSiteEstático.git
-cd MeuSiteEstático
+git clone https://github.com/tombuk94/Sites
+
+cd Sites
 
 
 Abra o arquivo index.html no seu navegador.
